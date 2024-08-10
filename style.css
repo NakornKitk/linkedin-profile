@@ -569,29 +569,19 @@ footer > div >div > select {
 }
 
 
-@media (max-width: 576px) {
+@media (max-width: 1170px) {
 
-    .main {
-        margin: 0px;
-    }
-
-    .main1 {
-        width:100%;
-    }
-
-    .main2 {
-        width:100%;
-    }
-
-    .main2 > div{
-        width:100%;
-        border-radius: 0px;
-    }
-
-    footer {
-        width:100%
-    }
+    
+        .nav2 > button > p {
+            display: none
+        }
+    
+        .nav3 > button > p {
+            display: none
+        }
 }
+
+
 
 @media (max-width: 770px) {
 
@@ -604,7 +594,7 @@ footer > div >div > select {
 
     .main1 {
         margin: auto;
-        min-width: 576px;
+        width: 576px;
 
     }
     header {
@@ -628,7 +618,7 @@ footer > div >div > select {
 
     .main2 {
         margin: auto;
-        min-width: 576px;
+        width: 576px;;
     }
 
 
@@ -660,15 +650,27 @@ footer > div >div > select {
 }
 
 
-    @media (max-width: 1170px) {
 
-    
-        .nav2 > button > p {
-            display: none
-        }
-    
-        .nav3 > button > p {
-            display: none
-        }
+@media (max-width: 576px) {
+
+    .main {
+        margin: 0px;
+    }
+
+    .main1 {
+        width:100%;
+    }
+
+    .main2 {
+        width:100%;
+    }
+
+    .main2 > div{
+        width:100%;
+        border-radius: 0px;
+    }
+
+    footer {
+        width:100%
+    }
 }
-
