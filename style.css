@@ -68,6 +68,10 @@ nav>div>div:last-child{
     margin-right: 10px;
 }
 
+.nav1 > img:hover{
+    cursor: pointer;
+}
+
 .nav1 > form {
     background-color:#EDF3F8;
     border-radius: 5px;
@@ -115,10 +119,14 @@ nav>div>div:last-child{
     width: 15%;
     border: none;
 
-    background-color: white;
-    
-    
+    background-color: white; 
 }
+
+.nav2 > button:hover {
+    cursor: pointer;
+}
+
+
 
 .nav2 > button > img {
     height:25px;
@@ -128,6 +136,11 @@ nav>div>div:last-child{
 .nav2 > button > span {
     color: #3D3D3C
 }
+
+.nav2 > button > span:hover, .nav2 > button > p:hover{
+    color: black;
+}
+
 
 .nav2 > button:last-child > img {
     width:25px;
@@ -143,6 +156,8 @@ nav>div>div:last-child{
     font-weight: 200;
 }
 
+
+
 .nav3{
     display: flex;
     
@@ -153,6 +168,12 @@ nav>div>div:last-child{
 .nav3 > button {
     border: none;
     background-color: white;
+
+    width: 50%;
+}
+
+.nav3 > button:hover{
+    cursor: pointer;
 }
 
 .nav3 > button > span {
@@ -164,6 +185,11 @@ nav>div>div:last-child{
     padding:0px;
     font-size: 12px;
     color:#666666;
+}
+
+
+.nav3 > button > span:hover, .nav3 > button > p:hover{
+    color: black;
 }
 
 
@@ -214,7 +240,6 @@ nav>div>div:last-child{
 
 
 
-
 .main2 > div> div:first-child {
     border-bottom: #DFDEDA 1px solid;
 }
@@ -226,7 +251,9 @@ nav>div>div:last-child{
     margin: 0px;
 }
 
-
+.main2 > div > div > div> span{
+    cursor: pointer;
+}
 
 
 /* header */
@@ -487,8 +514,9 @@ header {
 
 footer {
     padding-top: 50px;
+    padding-bottom: 15px;
 
-    font-size: 12px;
+    font-size: 11px;
     color: #666666;
 
 
@@ -508,6 +536,38 @@ footer select {
     width:100%;
 }
 
+
+footer > div > div:first-child{
+    width:45%;
+    display: flex;
+}
+
+footer > div > div >div{
+    width:100%;
+    display: block;
+
+}
+
+
+
+footer > div > div >div > p{
+    font-weight: 500;
+
+} 
+
+footer > div > div >div > p:hover{
+    cursor: pointer;
+    color: #0A66C2;
+    text-decoration: underline;
+
+} 
+
+footer > div > div >div > p:first-child{
+    padding-top:0px;
+    margin-top:0px;
+}
+
+
 footer > div > div{
     width:15%;
 }
@@ -526,6 +586,7 @@ footer > div > div:last-child > p{
 footer > div > div> a{
     display: block;
     padding-bottom: 5px;
+
 }
 
 .footericon {
@@ -543,6 +604,7 @@ footer > div > div> a{
     padding-top: 0px;
 }
 
+
 .footericon > div > span {
     color: #3D3D3C;
     padding-right: 5px;
@@ -552,20 +614,41 @@ footer > div > div> a{
     margin: 0px;
 }
 
-footer > div:last-child{
-    margin-bottom: 10px;
+.footericon > div > div > a{
+    font-size: 12px;
+    font-weight: 500;
 }
 
-footer > div >div > select {
+.footericon > div > div >a:hover {
+    cursor: pointer;
+    color: #0A66C2;
+    text-decoration: underline;
+}
+
+
+footer > div > div > label {
+    padding-top:0px;
+}
+
+
+
+
+footer > div > div > select {
     height: 30px;
     width: 100%;
 
     padding: 2px;
+    margin-top: 2px;
     font-size: 12px;
 
     color: #666666;
 
     border-radius: 5px;
+}
+
+
+footer > div > div > select:hover {
+    border: 2px black solid
 }
 
 
@@ -646,7 +729,6 @@ footer > div >div > select {
     }
 
 
-
 }
 
 
@@ -673,4 +755,54 @@ footer > div >div > select {
     footer {
         width:100%
     }
+
+
+    footer > div {
+        display: block;
+    }
+
+    footer > div > div:first-child {
+        width: 100%
+    }
+
+    .footericon {
+        width: 100%;
+    }
+
+
+    footer > div > div:last-child {
+        margin-top: 10px;
+        width: 100%
+    }
+
+
+    .nav1 {
+        width: 22%;
+    }
+
+    .nav1 > form {
+        background-color: white;
+    }
+
+    .nav1 > form > input{
+        display: none;
+    }
+
+    .nav1 > form > label >span{
+        padding-left:5px;
+        padding-top:7px;
+        font-size: 20px;
+    }
+
+    nav>div>div:last-child{
+        width: 90%;
+    
+    }
+
+
+    .nav2 {
+        margin-left:0px;
+        justify-content: flex-start;
+    }
+    
 }
