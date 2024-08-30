@@ -654,6 +654,10 @@ footer > div > div > select:hover {
   nav > div > div:last-child {
     width: 90%;
   }
+
+  .icon {
+    display:none;
+  }
 }
 
 @media (max-width: 576px) {
