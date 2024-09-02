@@ -304,24 +304,26 @@ header {
 
 .info > p:nth-child(3) {
   margin-top: 0px;
-  padding-top: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 
+  color: #aeacac;
+}
+
+.info > div > a > span:hover {
+  text-decoration: underline;
+}
+
+.info > p:nth-child(5) {
+  margin-top: 5px;
   color: #666666;
 }
 
-.info > p:nth-child(4) {
-  margin-top: 0px;
-
-  color: #666666;
-}
-
-.info > p:nth-child(4) > span {
+.info > p:nth-child(5) > span {
   font-weight: 500;
 }
 
 .topic-button {
-  padding: 10px 0px;
+  padding: 5px 0px;
 }
 
 .topic-button > a {
@@ -656,7 +658,7 @@ footer > div > div > select:hover {
   }
 
   .icon {
-    display:none;
+    display: none;
   }
 }
 
